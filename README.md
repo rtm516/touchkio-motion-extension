@@ -12,7 +12,7 @@ A [TouchKio](https://github.com/leukipp/touchkio) extension that adds a **Motion
 ## Installation
 ```bash
 mkdir -p ~/.config/touchkio/extensions
-curl -fsSL -o ~/.config/touchkio/extensions/motion.js https://raw.githubusercontent.com/rtm516/touchkio-motion-extension/master/motion.js
+wget -qO ~/.config/touchkio/extensions/motion.js https://raw.githubusercontent.com/rtm516/touchkio-motion-extension/master/motion.js
 systemctl --user restart touchkio.service
 ```
 
